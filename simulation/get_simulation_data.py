@@ -107,8 +107,6 @@ class Simulation:
                     summ1 += x[0]
             rates1 = sum1/sum_all
             ratesm1 = summ1/sum_all
-            if rates1 + ratesm1 >= 1:
-                print("----------")
             random = np.random.uniform()
             if random < rates1:
                 return 1
