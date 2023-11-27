@@ -48,7 +48,6 @@ def calculate_parameters(data):
     
     # Multiply inverse of A with B to find vector of estimated parameters a,b,c
     res= inv.dot(z_vector)
-    print(res)
     return res
 
 def sigmoid(a, c, x):
@@ -63,6 +62,9 @@ def main():
     for x in data:
         data1.append(x[:2] + x[3:])
     a, b, c = calculate_parameters(data1)
+    print("a1: ", a)
+    print("a2: ", b)
+    print("a3: ", c)
     real_rental_price = []
     rental_price1 = []
     rental_price2 = []
@@ -73,7 +75,9 @@ def main():
         rental_price2.append(sigmoid(500,0.75, data_point[2]))
     
     last_model_data = np.array([rental_price1, rental_price2, real_rental_price]).T
-    a1,b1,c1 = calculate_parameters(last_model_data)
-    
+    a,b,c = calculate_parameters(last_model_data)
+    print("c1: ", a)
+    print("c2: ", b)
+    print("c3: ", c)   
 if __name__ == '__main__':
     main()

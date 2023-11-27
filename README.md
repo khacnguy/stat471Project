@@ -49,13 +49,13 @@ python3 simulation/us_map.py
 ```
 
 ## Data
-- `us_states_name.csv`: Data of the US states (only using names) \
-- `area.csv`: Data of the Canadian cities' land areas \
-- `csi,pd.csv`: Data for Crime Severity Index and population density of each city \
-- `employment_rate.csv`: Data for employment rates in each city \
-- `homicide_rates.csv`: Data for homicide rates in each city \
-- `population.csv`: Data for population in each city \
-- `rental_price.csv`: Data of rental prices in each city \
+- `us_states_name.csv`: Data of the US states (only using names) 
+- `area.csv`: Data of the Canadian cities' land areas 
+- `csi,pd.csv`: Data for Crime Severity Index and population density of each city 
+- `employment_rate.csv`: Data for employment rates in each city 
+- `homicide_rates.csv`: Data for homicide rates in each city 
+- `population.csv`: Data for population in each city 
+- `rental_price.csv`: Data of rental prices in each city 
 
 
 ## Structure and Components

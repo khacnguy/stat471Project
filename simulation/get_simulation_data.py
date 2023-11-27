@@ -34,7 +34,6 @@ class Simulation:
         #get 0,-1, or 1 for each cities
         for city in self.data.keys():
             self.initial_state[city] = self.get_initial_state_city(self.data[city])
-        print(self.initial_state)
 
         #print(self.initial_state)
             
@@ -107,7 +106,9 @@ class Simulation:
                 elif x[1] == -1:
                     summ1 += x[0]
             rates1 = sum1/sum_all
-            ratesm1 = summ1/sum_all   
+            ratesm1 = summ1/sum_all
+            if rates1 + ratesm1 >= 1:
+                print("----------")
             random = np.random.uniform()
             if random < rates1:
                 return 1
@@ -122,7 +123,6 @@ class Simulation:
         self.simulation_data = {}
         self.simulation_data[2015] = self.initial_state
         for year in range(2016, 2100):
-            print(year)
             self.simulation_data[year] = dict()
             for city in self.data.keys():
                 self.simulation_data[year][city] = self.get_city_state(city, year)

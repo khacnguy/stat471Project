@@ -14,7 +14,6 @@ for year in data.keys():
         tmp = {"year": year, "category": data[year][location], "CODE": location[-2:]}
         data_reformat.append(tmp)
 df = pd.DataFrame(data_reformat)
-print(df)
 
 
 # Create choropleth map
@@ -39,7 +38,6 @@ fig = px.choropleth(df,
                     title='<b>COVID-19 cases in Canadian provinces</b>',
                     locationmode='USA-states',
                     )
-print("here1")
 # Adjust map layout stylings
 fig.update_layout(
     showlegend=True,
@@ -49,7 +47,6 @@ fig.update_layout(
     legend=dict(orientation='v'),
     geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='#e0fffe')
 )
-print("here2")
 # Adjust map geo options
 fig.update_geos(showcountries=False, showcoastlines=False,
                 showland=False, fitbounds="locations",
