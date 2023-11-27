@@ -124,7 +124,7 @@ class Simulation:
             self.simulation_data[year] = dict()
             for city in self.data.keys():
                 self.simulation_data[year][city] = self.get_city_state(city, year)
-        with open('result.json', 'w') as fp:
+        with open('us_states_by_year.json', 'w') as fp:
             json.dump(self.simulation_data, fp)
 
                     

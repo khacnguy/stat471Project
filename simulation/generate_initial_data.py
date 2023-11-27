@@ -15,7 +15,7 @@ class WidgetGallery(QDialog):
 
 
         self.originalPalette = QApplication.palette()
-        self.get_city_list("us_states_name.csv")
+        self.get_city_list("simulation/us_states_name.csv")
         self.range_dict = {'population': [0, 25000], 'csi': [10, 250], 'employment': [-1.5, 5]}
         self.create_data_dict()
 

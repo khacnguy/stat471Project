@@ -3,10 +3,7 @@ import geopandas as gpd
 import plotly.express as px
 import json
 
-# df = pd.read_csv("ca_pr_day_n.csv")   
-# df['category'] = ''
-# print(df)
-f = open('result.json')
+f = open('us_states_by_year.json')
 data = json.load(f)
 data_reformat = []
 for year in data.keys():
