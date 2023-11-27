@@ -35,7 +35,7 @@ fig = px.choropleth(df,
                     },
                     animation_frame="year",
                     scope='north america',
-                    title='<b>COVID-19 cases in Canadian provinces</b>',
+                    title='<b>Trends of rental price provinces</b>',
                     locationmode='USA-states',
                     )
 # Adjust map layout stylings
