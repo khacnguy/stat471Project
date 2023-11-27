@@ -3,6 +3,9 @@ import geopandas as gpd
 import plotly.express as px
 import json
 
+
+# draw US map based on generated geojson data
+
 f = open('us_states_by_year.json')
 data = json.load(f)
 data_reformat = []

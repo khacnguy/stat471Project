@@ -6,6 +6,8 @@ import numpy as np
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic as GD
 
+
+# get simulation data using intiial data generated
 class Simulation:
     def __init__(self):
         # a, b, c are the coefficients for the functions f,g and h

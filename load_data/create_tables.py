@@ -1,5 +1,11 @@
 import sqlite3
 
+# create tables for database
+
+DATABASE_PATH = "database.db"
+
+
+
 def connect(path):
     global connection, cursor
     try:
@@ -54,7 +60,7 @@ def create_area_tables():
     connection.commit()
     
 if __name__ == '__main__':
-    connect("database.db")
+    connect(DATABASE_PATH)
     create_rp_tables()
     create_csi_tables()
     create_population_tables()

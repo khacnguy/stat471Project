@@ -9,6 +9,12 @@ import random, json, subprocess, os, easygui
 import sys
 import json
 import pandas as pd
+
+# user interface for generating initial data
+# use geojson file to get US state names
+# generate initial data for each state randomly or by loading data about factors from external sources (json file)
+
+
 class WidgetGallery(QDialog):
     def __init__(self, parent=None):
         super(WidgetGallery, self).__init__(parent)

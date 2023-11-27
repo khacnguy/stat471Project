@@ -3,6 +3,7 @@ import geopandas as gpd
 import plotly.express as px
 import json
 
+# Canadian map
 # df = pd.read_csv("ca_pr_day_n.csv")   
 # df['category'] = ''
 # print(df)

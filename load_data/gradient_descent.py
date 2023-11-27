@@ -3,18 +3,23 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import sqlite3 
 
+# apply gradient descent with synthetic data to find parameters for simulation
+DATABASE_PATH = "database.db"
+
 def sigmoid(x, x0, k):
     y = 1 / (1 + np.exp(-k*(x-x0)))
     return y
 def GD(xdata, ydata):
-    print(ydata.mean(), ydata.std())
+    #
+    print("Average rental price: ", ydata.mean(), "Standard deviation of rental price: ", ydata.std())
+    print("Average employment rate change: ", xdata.mean(), "Standard deviation of employment rate change: ", xdata.std())
     ydata = ((ydata - np.average(ydata)) / ydata.std())
-    print(ydata)
-    print(xdata.mean(), ydata.mean(), xdata.std(), ydata.std())
+
+
 
 
     popt, pcov = curve_fit(sigmoid, xdata, ydata)
-    print(popt)
+    print("Parameters in sigmoid function: ", popt)
     x = np.linspace(-2.5, 2.9, 50)
     y = sigmoid(x, popt[0], popt[1])
 
@@ -22,7 +27,7 @@ def GD(xdata, ydata):
 
 
 
-    plt.plot(xdata, ydata, 'o', label='RI01_activity', color='blue')
+    plt.plot(xdata, ydata, 'o', label='data', color='blue')
     plt.plot(x, y, label='fit_activity')
     plt.ylim(-0.1, 1.2)
     plt.legend(loc='best')
@@ -42,13 +47,12 @@ def get_data():
     return cursor.fetchall()
 
 def main():
-    connect("database.db")
+    connect(DATABASE_PATH)
     data = get_data()
     X = np.array([x[2] for x in data])
     Y = np.array([x[3] for x in data])
     y_mean = Y.mean()
     y_std = Y.std()
-    print(y_mean, y_std)
     Y=np.array((Y-Y.mean())/Y.std())
     x_mean = X.mean()
     x_std = X.std()

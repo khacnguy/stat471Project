@@ -6,6 +6,10 @@ from matplotlib import cm
 from mpl_toolkits.mplot3d.axes3d import get_test_data
 
 from matplotlib.widgets import Button, Slider
+
+# clean data and visualize 
+DATABASE_PATH = 'database.db'
+
 def connect(path):
     global connection, cursor
     try:
@@ -377,7 +381,7 @@ class ChangingPlot3D(object):
             self.data_dict[rows[0]] = [rows[1], rows[2], rows[3], rows[4]]
 
 if __name__ == '__main__':
-    connect('database.db')
+    connect(DATABASE_PATH)
     # consider only city that appear in all 4 tables
     
     
@@ -419,8 +423,9 @@ if __name__ == '__main__':
     get_final_data()
 
     
-
+    #p = ChangingPlot(min_year, max_year)
     #p2 = ChangingPlot3D(min_year, max_year)
+    #p.show()
     #p2.show()
     
 

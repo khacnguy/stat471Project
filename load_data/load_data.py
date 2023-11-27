@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 
+#cleaning and loading data for simulation
 def connect(path):
     global connection, cursor
     try:

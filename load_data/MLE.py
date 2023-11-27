@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 import numpy as np
 
+# Calculate parameters for linear models using maximum likelihood estimation
 def connect(path):
     global connection, cursor
     try:
