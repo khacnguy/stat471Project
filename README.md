@@ -36,8 +36,6 @@ Method 2: Manual
 - Run the following commands:
 ```
 rm -f database.db
-```
-```
 touch database.db
 ```
 ```
