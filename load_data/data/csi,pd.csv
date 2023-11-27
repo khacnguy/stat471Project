@@ -1,0 +1,607 @@
+location,province,csi,population_density
+Toronto,ON,61.1,"3,087.8"
+Montreal,QC,78.3,"2,658.4"
+Peel Region (Mississauga/Brampton),ON,45.0,#N/A
+Calgary,AB,77.6,"2,099.9"
+York Region,ON,47.6,#N/A
+Ottawa,ON,54.1,#N/A
+Edmonton,AB,110.7,"1,836.2"
+Winnipeg,MB,144.4,"2,124.8"
+Québec,QC,53.6,#N/A
+Vancouver,BC,92.0,"2,661.3"
+Hamilton,ON,65.0,"2,049.2"
+Waterloo Region (Kitchener),ON,79.1,#N/A
+Surrey,BC,98.8,#N/A
+London,ON,79.7,"1,728.2"
+Halifax Metropolitan Area,NS,72.2,#N/A
+Durham Region (Oshawa/Whitby/Ajax),ON,44.1,#N/A
+Windsor,ON,83.8,"1,657.2"
+Gatineau,QC,66.7,#N/A
+Burnaby,BC,76.2,#N/A
+Saskatoon,SK,126.2,"1,965.7"
+Richmond,BC,180.1,#N/A
+Regina,SK,111.0,"2,130.4"
+St. John's,NL,81.0,"1,042.5"
+Kelowna,BC,150.7,"1,073.8"
+"Codiac Region (Moncton, Riverview, Dieppe)",NB,117.9,#N/A
+Greater Sudbury,ON,82.8,#N/A
+Barrie,ON,56.7,"1,622.5"
+Sherbrooke,QC,52.8,"1,473.1"
+Guelph,ON,60.6,"1,814.2"
+Niagara Region (St. Catharines),ON,56.9,#N/A
+Langley Township,BC,77.4,#N/A
+Kingston,ON,86.5,"1,533.5"
+Abbotsford,BC,78.0,"1,858.1"
+Trois-Rivières,QC,56.9,"1,299.0"
+White Rock,BC,81.1,"2,013.0"
+Delta,BC,60.0,#N/A
+Nanaimo,BC,140.3,"1,222.7"
+Chatham-Kent,ON,71.3,#N/A
+Brantford,ON,85.6,"1,680.6"
+Strathcona County,AB,47.3,#N/A
+Red Deer,AB,163.0,"1,514.4"
+"Cape Breton Region (Sydney, Glace Bay, New Waterford)",NS,56.5,#N/A
+Thunder Bay,ON,108.9,"1,253.0"
+Lethbridge,AB,134.7,"1,446.3"
+Kamloops,BC,156.7,"1,243.3"
+Victoria,BC,157.7,"1,630.9"
+Saint-Jean-sur-Richelieu,QC,50.4,"1,637.2"
+Peterborough,ON,77.2,"1,553.6"
+Chilliwack,BC,129.6,"1,457.0"
+New Westminster,BC,84.7,#N/A
+Belleville,ON,84.1,838.8
+Sarnia,ON,80.0,"1,221.6"
+Airdrie,AB,127.2,"2,227.6"
+Leeds County (Brockville),ON,47.5,#N/A
+Prince George,BC,207.1,911.2
+Sault Ste. Marie,ON,117.4,"1,225.7"
+Fredericton,NB,97.0,721.1
+Port Coquitlam,BC,72.4,#N/A
+Saint John,NB,71.7,905.7
+Medicine Hat,AB,81.6,"1,191.4"
+Grande Prairie,AB,157.3,"1,270.0"
+Granby,QC,51.5,"1,294.2"
+Kings County,NS,69.0,#N/A
+Charlottetown,PEI,70.8,910.2
+Vernon,BC,148.3,"1,014.4"
+North Bay,ON,103.9,792.4
+Brandon,MB,120.4,"1,758.9"
+Memphrémagog Region,QC,41.9,#N/A
+Joliette Region,QC,57.1,#N/A
+Courtenay,BC,141.7,864.6
+Cornwall,ON,112.9,"1,459.4"
+Woodstock,ON,91.2,"1,345.4"
+St. Thomas,ON,80.6,"1,627.5"
+West Parry Sound,ON,36.6,#N/A
+Spruce Grove,AB,75.5,"1,322.2"
+Shawinigan Region,QC,63.0,#N/A
+Rimouski-Neigette Region,QC,36.3,#N/A
+West Kelowna,BC,90.6,#N/A
+Campbell River,BC,157.2,"1,154.8"
+Penticton,BC,189.4,"1,427.7"
+Prince Albert,SK,302.2,"1,720.5"
+Essex County (Lakeshore),ON,25.8,#N/A
+Mission,BC,123.9,"1,329.2"
+Port Moody,BC,40.1,#N/A
+Dufferin (Orangeville),ON,42.5,#N/A
+Leduc,AB,174.2,496.9
+Orillia,ON,101.0,"1,471.7"
+Stratford,ON,65.2,"1,411.1"
+Moose Jaw,SK,121.0,"1,482.1"
+Cochrane,AB,78.0,"1,334.4"
+Lloydminster,AB,197.0,"1,292.8"
+Okotoks,AB,37.5,"1,753.6"
+South Simcoe (Innisfil),ON,38.1,#N/A
+Langley City,BC,229.5,#N/A
+Timmins,ON,148.5,"1,561.6"
+Essex County (Leamington),ON,68.5,#N/A
+Parksville,BC,105.7,995.6
+Fort Saskatchewan,AB,133.1,"1,228.0"
+Southern Georgian Bay (Midland),ON,71.4,#N/A
+Prince Edward,ON,35.7,#N/A
+Whitehorse,YT,177.0,#N/A
+Duncan,BC,226.4,#N/A
+Truro,NS,87.4,#N/A
+Essex County (Tecumseh),ON,31.7,#N/A
+Rouyn-Noranda,QC,72.6,#N/A
+Collingwood,ON,62.8,#N/A
+City of Kawartha Lakes,ON,28.7,#N/A
+Owen Sound,ON,104.4,#N/A
+Brockville,ON,107.6,#N/A
+Magog,QC,43.7,#N/A
+Squamish,BC,71.4,#N/A
+Huronia West (Wasaga Beach),ON,55.1,#N/A
+Port Alberni,BC,58.2,#N/A
+Essex County (Kingsville),ON,27.1,#N/A
+Chestermere,AB,41.5,#N/A
+Orillia (Oro-Medonte),ON,22.5,#N/A
+Beaumont,AB,35.3,#N/A
+Essex County (Essex),ON,24.5,#N/A
+Almaguin Highlands,ON,58.8,#N/A
+Cranbrook,BC,125.1,#N/A
+Cobourg,ON,68.9,#N/A
+Huntsville,ON,39.8,#N/A
+Yellowknife,NWT,310.4,#N/A
+New Glasgow Region,NS,152.6,#N/A
+Corner Brook,NL,77.3,#N/A
+Rivière-du-Loup Region,QC,40.4,#N/A
+Oxford (Tillsonburg),ON,66.7,#N/A
+Camrose,AB,85.5,#N/A
+Salmon Arm,BC,88.6,#N/A
+Stony Plain,AB,111.4,#N/A
+Thetford Mines,QC,66.2,#N/A
+Upper Ottawa Valley (Pembroke),ON,98.1,#N/A
+L'Assomption,QC,30.4,#N/A
+Swift Current,SK,39.6,#N/A
+Sylvan Lake,AB,82.1,#N/A
+Strathroy-Caradoc,ON,46.9,#N/A
+Middlesex (Strathroy),ON,66.3,#N/A
+Bracebridge (Bracebridge),ON,39.6,#N/A
+Yorkton,SK,164.4,#N/A
+Laurentides Region,QC,67.7,#N/A
+Summerside,PEI,118.3,#N/A
+Brooks,AB,98.8,#N/A
+Terrace,BC,164.6,#N/A
+Grand Falls-Windsor,NL,78.4,#N/A
+Upper Ottawa Valley (Petawawa),ON,23.7,#N/A
+High River,AB,46.8,#N/A
+Lanark County (Carleton Place),ON,49.0,#N/A
+Strathmore,AB,93.0,#N/A
+Oxford (Ingersoll),ON,44.9,#N/A
+Orillia (Severn),ON,37.0,#N/A
+Canmore,AB,86.8,#N/A
+Middlesex (Thames Centre),ON,35.4,#N/A
+Lanark County (Mississippi Mills),ON,21.6,#N/A
+Perth County (North Perth),ON,62.8,#N/A
+Edmundston,NB,64.8,#N/A
+Powell River,BC,103.6,#N/A
+Dawson Creek,BC,209.0,#N/A
+Lacombe,AB,56.5,#N/A
+Wetaskiwin,AB,367.2,#N/A
+Warman,SK,117.3,#N/A
+Thompson,MB,531.4,#N/A
+Bracebridge (Gravenhurst),ON,60.6,#N/A
+Quesnel,BC,59.7,#N/A
+Williams Lake,BC,51.2,#N/A
+Prince Rupert,BC,189.1,#N/A
+Hawkesbury,ON,84.1,#N/A
+Sooke,BC,67.5,#N/A
+Haute-Gaspésie Region,QC,61.7,#N/A
+Arnprior,ON,46.2,#N/A
+Nisichawayasihk (Nelson House),MB,"1,007.7",#N/A
+Nelson,BC,88.6,#N/A
+Ladysmith,BC,66.7,#N/A
+Northumberland (Hamilton),ON,15.5,#N/A
+East Algoma (Elliot Lake),ON,91.9,#N/A
+Kenora,ON,128.9,#N/A
+Weyburn,SK,81.3,#N/A
+Estevan,SK,79.5,#N/A
+Martensville,SK,26.8,#N/A
+Morinville,AB,65.7,#N/A
+Matane Region,QC,53.8,#N/A
+Blackfalds,AB,51.3,#N/A
+Castlegar,BC,45.1,#N/A
+Whistler,BC,100.8,#N/A
+Gander,NL,96.7,#N/A
+Summerland,BC,80.1,#N/A
+Stratford,PEI,31.4,"1,411.1"
+Hawkesbury (Alfred and Plantagenet),ON,44.6,#N/A
+Amherst,NS,142.9,#N/A
+Smiths Falls,ON,99.6,#N/A
+Orillia (Ramara),ON,28.4,#N/A
+Sechelt,BC,109.9,#N/A
+Acton Region,QC,46.8,#N/A
+South Bruce (Kincardine),ON,51.1,#N/A
+Whitecourt,AB,84.9,#N/A
+Hinton,AB,158.6,#N/A
+Morden,MB,64.3,#N/A
+Dufferin (Shelburne),ON,50.5,#N/A
+Olds,AB,84.1,#N/A
+Coldstream,BC,30.9,#N/A
+Taber,AB,77.9,#N/A
+Montmagny Region,QC,44.6,#N/A
+Perth County (West Perth),ON,40.8,#N/A
+Campbellton,NB,78.5,#N/A
+Bridgewater,NS,103.1,#N/A
+Hawkesbury (Champlain),ON,40.3,#N/A
+Dufferin (Mono),ON,21.5,#N/A
+Coaldale,AB,55.6,#N/A
+Oromocto,NB,79.5,#N/A
+Shediac,NB,57.2,#N/A
+Renfrew,ON,63.3,#N/A
+Banff,AB,114.5,#N/A
+Lennox and Addington County (Greater Napanee),ON,80.8,#N/A
+Edson,AB,143.2,#N/A
+Aylmer,ON,58.2,#N/A
+Yarmouth,NS,53.1,#N/A
+Hanover,ON,99.1,#N/A
+Huron (Goderich),ON,60.3,#N/A
+Revelstoke,BC,65.8,#N/A
+Lanark County (Beckwith),ON,18.2,#N/A
+La Tuque,QC,100.1,#N/A
+Cold Lake,AB,288.2,#N/A
+Rainy River District (Fort Frances),ON,121.5,#N/A
+James Bay (Kapuskasing),ON,98.8,#N/A
+Victoria County,NS,64.2,#N/A
+Ponoka,AB,68.4,#N/A
+Collingwood (The Blue Mountains),ON,30.1,#N/A
+Innisfail,AB,99.5,#N/A
+Happy Valley-Goose Bay,NL,284.6,#N/A
+Iqaluit,NU,562.5,#N/A
+Drayton Valley,AB,122.7,#N/A
+Bay Roberts,NL,55.4,#N/A
+West Parry Sound (Parry Sound),ON,117.3,#N/A
+Kitimat,BC,123.8,#N/A
+Devon,AB,79.1,#N/A
+Slave Lake,AB,160.6,#N/A
+Rocky Mountain House,AB,186.0,#N/A
+Drumheller,AB,144.9,#N/A
+Chapais-Chibougamau,QC,115.0,#N/A
+Perth Andover,NB,162.5,#N/A
+Wainwright,AB,63.2,#N/A
+Bonnyville,AB,421.2,#N/A
+Côte-de-Beaupré Region,QC,36.3,#N/A
+Coaticook Region,QC,49.9,#N/A
+Kentville,NS,73.6,#N/A
+Kent,BC,69.4,#N/A
+Lanark County (Tay Valley Township),ON,25.9,#N/A
+Southern Georgian Bay (Tay),ON,37.0,#N/A
+Kirkland Lake,ON,153.1,#N/A
+Nicolet-Yamaska Region,QC,50.9,#N/A
+Lanark County (Perth),ON,68.2,#N/A
+Northumberland (Brighton),ON,44.3,#N/A
+South Porcupine,ON,84.0,#N/A
+Melfort,SK,135.4,#N/A
+South Okanagan/Oliver,BC,187.1,#N/A
+St. Paul,AB,440.0,#N/A
+Antigonish County,NS,57.7,#N/A
+Antigonish,NS,129.7,#N/A
+Stettler,AB,132.7,#N/A
+Fernie,BC,50.7,#N/A
+Creston,BC,143.5,#N/A
+Sussex,NB,73.1,#N/A
+Redcliff,AB,55.0,#N/A
+Vegreville,AB,139.7,#N/A
+Gananoque,ON,54.3,#N/A
+Dryden (Ignace),ON,214.7,#N/A
+Dryden,ON,144.2,#N/A
+Dryden (Machin),ON,35.4,#N/A
+Cornwall,PEI,34.7,"1,459.4"
+Bromont,QC,31.5,#N/A
+Lanark County (Lanark Highlands),ON,39.5,#N/A
+Armstrong,BC,54.3,#N/A
+James Bay (Cochrane),ON,122.5,#N/A
+La Ronge,SK,631.3,#N/A
+Smithers,BC,76.2,#N/A
+Humboldt,SK,67.7,#N/A
+Merritt,BC,81.1,#N/A
+Woodstock,NB,183.3,"1,345.4"
+Langdon,AB,66.4,#N/A
+Meadow Lake,SK,327.4,#N/A
+Grey Bruce (Meaford),ON,39.3,#N/A
+Didsbury,AB,78.3,#N/A
+Peachland,BC,66.4,#N/A
+Kimberley,BC,74.8,#N/A
+Exeter (South Huron),ON,53.8,#N/A
+Osoyoos,BC,96.9,#N/A
+South Okanagan/Osoyoos,BC,92.5,#N/A
+Westlock,AB,196.7,#N/A
+North Bay (East Ferris),ON,15.2,#N/A
+Jardins de Napierville Region,QC,297.4,#N/A
+Oxford (Blandford-Blenheim),ON,22.2,#N/A
+Hope,BC,159.4,#N/A
+Hudson's Hope,BC,54.5,#N/A
+Northumberland (Port Hope),ON,40.3,#N/A
+Port Hope,ON,35.0,#N/A
+Deer Lake,NL,54.0,#N/A
+Peace River,AB,240.5,#N/A
+Richmond County,NS,73.3,#N/A
+Altona,MB,35.7,#N/A
+Cumberland County,NS,83.3,#N/A
+Cumberland House,SK,790.5,#N/A
+Boundary/Grand Forks,BC,71.1,#N/A
+Nipawin,SK,179.5,#N/A
+Grenville County (Prescott),ON,69.1,#N/A
+Melville,SK,93.7,#N/A
+Barrhead,AB,92.5,#N/A
+Jasper,AB,99.5,#N/A
+Sparwood,BC,42.8,#N/A
+Raymond/Magrath,AB,43.4,#N/A
+Bancroft,ON,66.5,#N/A
+Deep River,ON,53.9,#N/A
+Sackville,NB,62.0,#N/A
+Sioux Lookout,ON,8.9,#N/A
+North Battleford,SK,332.8,#N/A
+Golden/Field,BC,87.2,#N/A
+Vermilion,AB,136.5,#N/A
+Fort Vermilion,AB,83.6,#N/A
+James Bay (Hearst),ON,90.5,#N/A
+Cardston,AB,119.2,#N/A
+Hampton,NB,47.5,#N/A
+Dufferin (Mulmur),ON,26.4,#N/A
+East Algoma (Blind River),ON,65.2,#N/A
+Pincher Creek,AB,105.3,#N/A
+High Level,AB,388.1,#N/A
+North Bay (Powassan),ON,14.2,#N/A
+Lac Seul,ON,489.9,#N/A
+Claresholm,AB,88.5,#N/A
+Port Hardy,BC,179.5,#N/A
+Bay St. George,NL,106.3,#N/A
+Black Lake,SK,"1,237.2",#N/A
+Caraquet,NB,79.5,#N/A
+Lake Cowichan,BC,98.2,#N/A
+Oxford (East Zorra-Tavistock),ON,25.7,#N/A
+Channel-Port aux Basques,NL,43.2,#N/A
+Renfrew (Admaston/Bromley),ON,27.9,#N/A
+Clinton,BC,91.7,#N/A
+Fort Macleod,AB,133.7,#N/A
+Oxford (Norwich),ON,32.1,#N/A
+Grande Cache,AB,192.2,#N/A
+Enderby,BC,92.0,#N/A
+Marathon,ON,45.7,#N/A
+Marathon (Manitouwadge),ON,68.7,#N/A
+Dufferin (Melancthon),ON,39.5,#N/A
+Inuvik,NWT,497.5,#N/A
+Huron (Huron/Wingham),ON,54.9,#N/A
+Bonavista,NL,93.6,#N/A
+Carmanville,NL,34.6,#N/A
+Carman Area,MB,24.0,#N/A
+Stl'atl'imx Tribal (Lillooet-Pemberton),BC,135.4,#N/A
+Pemberton,BC,53.6,#N/A
+Dufferin (Amaranth),ON,26.0,#N/A
+Kindersley,SK,76.8,#N/A
+Three Hills,AB,175.9,#N/A
+Tisdale,SK,106.4,#N/A
+Mackenzie,BC,188.8,#N/A
+Princeton,BC,97.5,#N/A
+Côte-de-Gaspé Region,QC,56.8,#N/A
+Arviat,NU,213.7,#N/A
+Dufferin (East Garafraxa),ON,27.6,#N/A
+Dufferin (Town of Grand Valley),ON,26.6,#N/A
+Rankin Inlet,NU,444.5,#N/A
+Marystown,NL,77.7,#N/A
+Pictou County,NS,73.1,#N/A
+Pictou,NS,161.6,#N/A
+Killarney,MB,41.8,#N/A
+Moosomin,SK,63.0,#N/A
+Superior East (Wawa),ON,111.1,#N/A
+Fairview,AB,98.7,#N/A
+Turner Valley,AB,78.4,#N/A
+Unity,SK,77.8,#N/A
+Lunenburg County,NS,67.5,#N/A
+Tumbler Ridge,BC,48.1,#N/A
+Rosetown,SK,50.7,#N/A
+Hay River,NWT,415.2,#N/A
+Chase,BC,101.9,#N/A
+Colchester County,NS,63.6,#N/A
+Assiniboia,SK,52.0,#N/A
+Rimbey,AB,111.9,#N/A
+Beaverlodge,AB,124.9,#N/A
+Hanna,AB,79.7,#N/A
+Port McNeill,BC,96.3,#N/A
+Tofino,BC,144.8,#N/A
+Esterhazy,SK,56.2,#N/A
+Springdale,NL,48.2,#N/A
+Maple Creek,SK,72.1,#N/A
+Lac La Biche,AB,240.5,#N/A
+Pelican Narrows,SK,"1,002.6",#N/A
+Twillingate,NL,51.6,#N/A
+Burns Lake,BC,109.9,#N/A
+Outlook,SK,35.2,#N/A
+Portneuf Region,QC,43.6,#N/A
+Houston,BC,173.7,#N/A
+High Prairie,AB,312.4,#N/A
+Lewisporte,NL,37.3,#N/A
+Biggar,SK,83.1,#N/A
+Sicamous,BC,81.0,#N/A
+La Loche,SK,"1,034.4",#N/A
+Digby,NS,120.4,#N/A
+Grey Bruce (Wiarton),ON,111.1,#N/A
+North Bay (Mattawa),ON,74.7,#N/A
+St. Anthony,NL,39.8,#N/A
+Nanton,AB,113.5,#N/A
+North Bay (Bonfield),ON,41.9,#N/A
+Vanderhoof,BC,96.7,#N/A
+Bouctouche,NB,38.8,#N/A
+Ucluelet,BC,76.6,#N/A
+Souris,PEI,41.0,#N/A
+Lebel-sur-Quévillon,QC,135.3,#N/A
+Rainy River District (Atikokan),ON,57.4,#N/A
+Elkford,BC,38.8,#N/A
+Montague,PEI,46.1,#N/A
+Lanark County (Montague),ON,29.5,#N/A
+Fort Qu'Appelle,SK,123.4,#N/A
+Provost,AB,79.4,#N/A
+Bow Island,AB,30.2,#N/A
+Bathurst,NB,95.1,#N/A
+Indian Head,SK,62.9,#N/A
+Watrous,SK,41.8,#N/A
+Tofield,AB,85.1,#N/A
+Picture Butte,AB,37.4,#N/A
+Redwater,AB,173.3,#N/A
+Morris,MB,63.8,#N/A
+Lumsden,SK,64.9,#N/A
+South Okanagan-Keremeos,BC,81.9,#N/A
+Sundre,AB,148.8,#N/A
+Grenville County (Edwardsburgh/Cardinal),ON,61.7,#N/A
+Shaunavon,SK,37.5,#N/A
+Canora,SK,75.0,#N/A
+Fort Smith,NWT,340.0,#N/A
+Kensington,PEI,55.1,#N/A
+Shelburne,NS,69.1,#N/A
+Dalmeny,SK,45.4,#N/A
+Wynyard,SK,77.5,#N/A
+Kamsack,SK,265.0,#N/A
+Baker Lake,NU,295.9,#N/A
+Lillooet,BC,200.2,#N/A
+Russell County (Russell),ON,31.1,#N/A
+Russell County (Casselman),ON,44.4,#N/A
+Russell County/Hawkesbury (The Nation),ON,30.4,#N/A
+Russell County (Rockland),ON,33.4,#N/A
+Nipigon (Terrace Bay),ON,35.8,#N/A
+Sault Ste. Marie (Macdonald/Meredith),ON,38.7,#N/A
+Lennox and Addington County (Deseronto),ON,81.8,#N/A
+Manawan,QC,278.7,#N/A
+Vulcan,AB,54.1,#N/A
+Wellington County,ON,27.8,#N/A
+Carlyle,SK,111.4,#N/A
+Fort St James,BC,320.9,#N/A
+Lumby,BC,38.3,#N/A
+Rosthern,SK,83.1,#N/A
+Caledonia Region,NB,65.7,#N/A
+Caledon,ON,31.9,#N/A
+Avignon/Bonaventure Region,QC,52.2,#N/A
+Fox Creek,AB,185.6,#N/A
+Maria-Chapdelaine Region,QC,60.6,#N/A
+Wikwemikong,ON,296.7,#N/A
+Maskinongé Region,QC,38.3,#N/A
+Cambridge Bay,NU,486.3,#N/A
+Elk Point,AB,355.1,#N/A
+Central Hastings,ON,50.0,#N/A
+Two Hills,AB,112.0,#N/A
+Logan Lake,BC,59.1,#N/A
+Matagami,QC,136.5,#N/A
+Placentia,NL,64.1,#N/A
+Hudson Bay,SK,59.9,#N/A
+Témiscamingue Region,QC,82.7,#N/A
+Valleyview,AB,236.9,#N/A
+Barriere,BC,50.9,#N/A
+Red Lake,ON,116.2,#N/A
+Obedjiwan First Nations,QC,270.7,#N/A
+Antoine-Labelle Region,QC,70.1,#N/A
+Inverness County,NS,71.8,#N/A
+Little Current (Espanola),ON,74.1,#N/A
+Little Current (Manitoulin),ON,65.7,#N/A
+Swan Hills,AB,146.2,#N/A
+Bassano,AB,48.7,#N/A
+Ashcroft,BC,115.9,#N/A
+Athabasca,AB,158.1,#N/A
+Burgeo,NL,10.2,#N/A
+Mayerthorpe,AB,234.8,#N/A
+East Algoma (Thessalon),ON,118.2,#N/A
+Salmo,BC,96.5,#N/A
+Central Hastings (Stirling-Rawdon),ON,33.2,#N/A
+Wadena,SK,199.7,#N/A
+Carnduff,SK,48.6,#N/A
+Nakusp,BC,76.9,#N/A
+Gjoa Haven,NU,207.5,#N/A
+Dawson,YT,207.1,#N/A
+Viking,AB,158.4,#N/A
+Sheshatshiu,NL,875.4,#N/A
+Grenville County (Merrickville-Wolford),ON,28.1,#N/A
+Manning,AB,82.3,#N/A
+St. Andrews,NB,35.5,#N/A
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
+,,,#REF!
