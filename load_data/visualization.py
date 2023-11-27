@@ -419,10 +419,9 @@ if __name__ == '__main__':
     get_final_data()
 
     
-    # p = ChangingPlot(min_year, max_year)
-    # p.show()
-    # p2 = ChangingPlot3D(min_year, max_year)
-    # p2.show()
+
+    #p2 = ChangingPlot3D(min_year, max_year)
+    #p2.show()
     
 
     
