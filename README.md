@@ -59,7 +59,7 @@ Calculate parameters for linear models using maximum likelihood estimation
 
 - `create_tables.py`: Create tables for database 
 - `load_data.py`: Load data for simulation 
-- `visualization.py`: Clean data and visualize 
+- `visualization.py`: Clean data and visualize, visualization is off by default. To turn this on, go to the end of the file and uncomment either p1 or p2
 - `MLE.py`: Calculate parameters for linear models using maximum likelihood estimation 
 - `simulation.py`: Simulate employment rate change based on rental price and put in database 
 - `gradient_descent.py`: Apply gradient descent with synthetic data to find parameters for simulation 
