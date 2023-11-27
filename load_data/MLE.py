@@ -4,6 +4,7 @@ import numpy as np
 
 # Calculate parameters for linear models using maximum likelihood estimation
 def connect(path):
+    # connect to database
     global connection, cursor
     try:
         connection = sqlite3.connect(path)
@@ -12,12 +13,14 @@ def connect(path):
         print("error connecting", error)
 
 def get_data():
+    # get data from database
     cursor.execute('''
         SELECT population_density, cnt, val_diff, price_diff FROM final_data_diff
     ;''')
     return cursor.fetchall()
 
 def calculate_parameters(data):
+    # get parameters from data using MLE
     # data is a list of (p,q,r) triples
     n=len(data)
 
@@ -56,8 +59,10 @@ def sigmoid(a, c, x):
 
 def main():
     connect("database.db")
-    #ax + by + c = ?
+
     data = get_data()
+
+    # first linear function
     data1 = []
     for x in data:
         data1.append(x[:2] + x[3:])
@@ -65,6 +70,9 @@ def main():
     print("a1: ", a)
     print("a2: ", b)
     print("a3: ", c)
+
+
+    # second linear functions
     real_rental_price = []
     rental_price1 = []
     rental_price2 = []
@@ -79,5 +87,6 @@ def main():
     print("c1: ", a)
     print("c2: ", b)
     print("c3: ", c)   
+    
 if __name__ == '__main__':
     main()

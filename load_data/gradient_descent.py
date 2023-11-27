@@ -10,7 +10,7 @@ def sigmoid(x, x0, k):
     y = 1 / (1 + np.exp(-k*(x-x0)))
     return y
 def GD(xdata, ydata):
-    #
+    # apply gradient descent to x and y
     print("Average rental price: ", ydata.mean(), "Standard deviation of rental price: ", ydata.std())
     print("Average employment rate change: ", xdata.mean(), "Standard deviation of employment rate change: ", xdata.std())
     ydata = ((ydata - np.average(ydata)) / ydata.std())
@@ -32,7 +32,9 @@ def GD(xdata, ydata):
     plt.ylim(-0.1, 1.2)
     plt.legend(loc='best')
     plt.show()
+
 def connect(path):
+    # connect to database
     global connection, cursor
     try:
         connection = sqlite3.connect(path)
@@ -41,6 +43,7 @@ def connect(path):
         print("error connecting", error)
 
 def get_data():
+    # get data from database
     cursor.execute('''
         SELECT population_density, cnt, val_diff, price_diff FROM final_data_diff
     ;''')
@@ -49,6 +52,7 @@ def get_data():
 def main():
     connect(DATABASE_PATH)
     data = get_data()
+    # quick data cleaning
     X = np.array([x[2] for x in data])
     Y = np.array([x[3] for x in data])
     y_mean = Y.mean()
@@ -57,5 +61,6 @@ def main():
     x_mean = X.mean()
     x_std = X.std()
     X=np.array((X-X.mean())/X.std())
+    
     GD(X,Y)
 main()
