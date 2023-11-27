@@ -24,11 +24,7 @@ Method 1: Using Makefile
 - Go to the directory with the `Makefile` and type in command line the following:
 ```
 make get_data
-```
-```
 make get_parameters
-```
-```
 make simul
 ```
 
