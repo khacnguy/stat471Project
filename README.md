@@ -67,12 +67,12 @@ Calculate parameters for linear models using maximum likelihood estimation
 - `MLE.py`: Calculate parameters for linear models using maximum likelihood estimation 
 - `simulation.py`: Simulate employment rate change based on rental price and put in database 
 - `gradient_descent.py`: Apply gradient descent with synthetic data to find parameters for simulation 
-We are not using this file because ...
+We are not using this file because the data is generated, hence we know the parameters already.
 
-- `canadian_covid_map.py`: Canadian map \
-- `generate_initial_data.py`: user interface for generating initial data \
-- `get_simulation_data.py`: get simulation data using intiial data generated \
-- `us_map.py`: draw US map based on generated geojson data \
+- `canadian_covid_map.py`: Canadian map 
+- `generate_initial_data.py`: user interface for generating initial data 
+- `get_simulation_data.py`: get simulation data using intiial data generated 
+- `us_map.py`: draw US map based on generated geojson data 
 
 ## Acknowledgments
 - Markov Mavericks contributing team members: Khac Nguyen Nguyen, Bao Nguyen, John He, Adhiguna Pande
