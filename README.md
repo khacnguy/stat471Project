@@ -49,24 +49,24 @@ python3 simulation/us_map.py
 ```
 
 ## Data
-`us_states_name.csv`: Data of the US states (only using names) \
-`area.csv`: Data of the Canadian cities' land areas \
-`csi,pd.csv`: Data for Crime Severity Index and population density of each city \
-`employment_rate.csv`: Data for employment rates in each city \
-`homicide_rates.csv`: Data for homicide rates in each city \
-`population.csv`: Data for population in each city \
-`rental_price.csv`: Data of rental prices in each city \
+- `us_states_name.csv`: Data of the US states (only using names) \
+- `area.csv`: Data of the Canadian cities' land areas \
+- `csi,pd.csv`: Data for Crime Severity Index and population density of each city \
+- `employment_rate.csv`: Data for employment rates in each city \
+- `homicide_rates.csv`: Data for homicide rates in each city \
+- `population.csv`: Data for population in each city \
+- `rental_price.csv`: Data of rental prices in each city \
 
 
 ## Structure and Components
 Calculate parameters for linear models using maximum likelihood estimation
 
-- `create_tables.py`: Create tables for database \
-- `load_data.py`: Load data for simulation \
-- `visualization.py`: Clean data and visualize \
-- `MLE.py`: Calculate parameters for linear models using maximum likelihood estimation \
-- `simulation.py`: Simulate employment rate change based on rental price and put in database \
-- `gradient_descent.py`: Apply gradient descent with synthetic data to find parameters for simulation \
+- `create_tables.py`: Create tables for database 
+- `load_data.py`: Load data for simulation 
+- `visualization.py`: Clean data and visualize 
+- `MLE.py`: Calculate parameters for linear models using maximum likelihood estimation 
+- `simulation.py`: Simulate employment rate change based on rental price and put in database 
+- `gradient_descent.py`: Apply gradient descent with synthetic data to find parameters for simulation 
 We are not using this file because ...
 
 - `canadian_covid_map.py`: Canadian map \
