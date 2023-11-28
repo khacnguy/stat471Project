@@ -66,8 +66,8 @@ Calculate parameters for linear models using maximum likelihood estimation
 We are not using this file because the data is generated, hence we know the parameters already.
 
 - `canadian_covid_map.py`: Canadian map 
-- `generate_initial_data.py`: user interface for generating initial data 
-- `get_simulation_data.py`: get simulation data using intiial data generated 
+- `generate_initial_data.py`: user interface for generating initial data (it is important to save the file as "us_state_initial_data"(.json) 
+- `get_simulation_data.py`: get simulation data using intiial data generated (this only loads from "us_state_initial_data.json" as of right now
 - `us_map.py`: draw US map based on generated geojson data 
 
 ## Acknowledgments
