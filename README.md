@@ -68,7 +68,7 @@ We are not using this file because the data is generated, hence we know the para
 - `canadian_covid_map.py`: Canadian map 
 - `generate_initial_data.py`: user interface for generating initial data (it is important to save the file as "us_state_initial_data"(.json) 
 - `get_simulation_data.py`: get simulation data using intiial data generated (this only loads from "us_state_initial_data.json" as of right now
-- `us_map.py`: draw US map based on generated geojson data 
+- `us_map.py`: draw US map based on generated simulation data 
 
 ## Acknowledgments
 - Markov Mavericks contributing team members: Khac Nguyen Nguyen, Bao Nguyen, John He, Adhiguna Pande
